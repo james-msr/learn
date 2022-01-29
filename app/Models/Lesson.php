@@ -9,6 +9,11 @@ class Lesson extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'theme',
+        'content',
+        'path_to_video'
+    ];
     /**
      * @return mixed
      */
