@@ -10,6 +10,7 @@ class Lesson extends Model
     use HasFactory;
 
     protected $fillable = [
+        'subject_id',
         'theme',
         'content',
         'path_to_video'
